@@ -9,8 +9,10 @@ public class trycatch{
 
         try{
         int sum = a /(b-c);}
-        catch(ArithmeticException e){
+        catch(ArithmeticException e){//in this e is variable
             System.out.println("cannot devide by zero...");
+            System.out.println("error = " +e.getMessage());
+            System.out.println(e);
         }
 
         System.out.println("bye...");
